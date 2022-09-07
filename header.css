@@ -1,0 +1,99 @@
+body {
+    width: 1200px;
+    margin: 0px auto;
+    background: #fff;
+    font: 14px -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+
+header {
+    width: 270px;
+    float: left;
+    font-weight: bold;
+}
+.menu{
+    padding: 10px;
+}
+.navegacao-principal a {
+    color: #000;
+    display: inline-block;
+}
+.navegacao-principal li{
+    margin: 0 0 15px;
+    
+}
+.navegacao-principal a:hover {
+    background: #E8F5FE;
+    border-radius: 50px;
+    color: #1DA1F2;
+    outline-color: #1DA1F2;
+}
+.navegacao-principal a {
+    text-decoration: none;
+}
+.navegacao-principal p {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 20px;
+    line-height: 26px;
+    padding: 10px 15px;
+}
+.navegacao-principal img {
+    width: 26px;
+    padding: 10px 15px;
+}
+.tweetar {
+    width: 90%;
+    text-align: center;
+    font-size: 16px;
+    line-height: 48px;
+    border-radius: 50px;
+    background-color: #1DA1F2;
+    color: #fff;
+}
+
+.perfil {
+    position: absolute;
+    bottom: 0px;
+    width: 255px;
+    margin-bottom: 10px;
+}
+.perfil svg{
+    margin: 10px 15px;
+}
+.perfil-text{
+    display: inline-block;
+    vertical-align: top;
+    padding: 13px 0;
+}
+.perfil #aroba{
+    color: #5B7083;
+}
+
+.perfil:hover {
+    background: #E8F5FE;
+    border-radius: 50px;
+}
+
+
+
+main {
+    width: 600px;
+    background: chartreuse;
+    float: left;
+    
+}
+.caixa-main {
+    border-bottom: 1px;
+    border-left: 1px;
+    border-right: 1px;
+    border-color: #ccc;
+    border-style: solid;
+}
+
+footer {
+    position: relative;
+    width: 270px;
+    background: chocolate;
+    float: left;
+}
